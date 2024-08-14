@@ -20,8 +20,8 @@ chrome_driver_path = r"C:/Users/danip/Downloads/chromedriver-win64/chromedriver-
 service = Service(executable_path=chrome_driver_path)
 
 # Ruta de la carpeta para las capturas de pantalla y el archivo PDF
-screenshots_folder = r"C:\Users\danip\OneDrive\Imágenes\test_failed3\screenshot_evidence"
-pdf_path = r"C:\Users\danip\OneDrive\Imágenes\test_failed3\test_evidence.pdf"
+screenshots_folder = r"C:\Users\User\Documents\Aseguramiento de la calidad 14937\Evidencias"
+pdf_path = r"C:\Users\User\Documents\Aseguramiento de la calidad 14937\Evidencias\test_evidence.pdf"
 
 # Asegúrate de que la carpeta de capturas de pantalla exista
 if not os.path.exists(screenshots_folder):
